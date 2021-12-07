@@ -1,0 +1,47 @@
+{
+    "store.custom#OrderPlace-test": {
+        "children": [
+            "rich-text#bf-title",
+            "op-section#confirmation"
+        ]
+    },
+
+    "rich-text#bf-title": {
+        "props": {
+            "text": "## ORDER PLACED",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "op-section#confirmation": {
+        "props": {
+            "name": "confirmation",
+            "marginBottom": 9,
+            "borderless": true
+        },
+        "children": [
+            "flex-layout.row#confirmation-buttons"
+        ]
+    },
+    "flex-layout.row#confirmation-buttons": {
+        "props": {
+            "blockClass": "confirmationButtons",
+            "marginTop": 8,
+            "marginBottom": 8,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        },
+        "children": ["flex-layout.col#confirmation-buttons"]
+    },
+    "flex-layout.col#confirmation-buttons": {
+        "children": ["op-print-button"]
+    },
+    "op-section#notices": {
+        "props": {
+            "name": "notices",
+            "marginBottom": 9,
+            "borderless": true
+        },
+        "children": ["op-notices"]
+    }
+}
