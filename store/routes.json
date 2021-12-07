@@ -1,6 +1,6 @@
 {
-    "store.custom#OrderPlace-test": {
-        "path": "/orderPlaced-test"
+    "store.custom#CustomOrderPlaced": {
+        "path": "/CustomOrderPlaced"
     },
     "store.custom#about-us": {
         "path": "/about-us"

@@ -1,5 +1,5 @@
 {
-    "store.custom#OrderPlace-test": {
+    "store.custom#CustomOrderPlaced": {
         "children": [
             "rich-text#bf-title",
             "op-section#confirmation"
